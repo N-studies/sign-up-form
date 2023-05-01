@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.background-and-logo {
+  border: 2px solid red;
+  
+  height: 600px;
+  width: 600px;
+}
+
+.background-image {
+  
+  width: 400px;
+  height: auto;
+}
+
+.logo {
+  position: absolute;
+  top: 150px;
+  color: white;
+  background-color: black;
+  opacity: .6;
+  width: 400px;
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.logo-img {
+    width: 100px;
+    height: auto;
+}
+
+
