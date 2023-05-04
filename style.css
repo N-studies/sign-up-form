@@ -9,7 +9,6 @@ body {
   padding: 0;
   margin: 0;
   background-color: whitesmoke;
-  
 }
 /*
 .background-and-logo {
@@ -23,16 +22,13 @@ body {
   flex: 1;
   width: 400px;
   height: 100vh;
- 
-  
 }
 
 .logo {
   position: absolute;
   top: 150px;
   color: white;
-  background-color: black;
-  opacity: 0.7;
+  background-color: rgba(0, 0, 0, 0.6);
   width: 400px;
   font-size: 80px;
   display: flex;
@@ -46,10 +42,7 @@ body {
   height: auto;
 }
 
-.logo-img,
-.logo-text {
-  opacity: 1;
-}
+
 
 .white-background {
   display: flex;
@@ -63,11 +56,8 @@ body {
   box-shadow: 2px 3px 5px 1px gainsboro;
 }
 
-
 .left {
-  
   margin-right: 100px;
-  
 }
 
 .inner-text {
@@ -82,20 +72,17 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  
   font-family: lato;
   font-size: 11px;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.699);
-  
-
 }
 
 .form-container {
   font-family: lato;
-  padding-top: 150px;
- 
-  width: 70vw;
+  padding-top: 100px;
+
+  width: 100vw;
   padding-left: 70px;
 }
 
@@ -126,11 +113,6 @@ button {
   border: 1px solid #596d48;
 }
 
-
 input {
   margin-bottom: 25px;
 }
-
-
-
-
