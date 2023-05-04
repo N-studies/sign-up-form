@@ -2,6 +2,10 @@
   font-family: lato;
   src: url(Lato-Regular.ttf);
 }
+@font-face {
+  font-family: nurse-bold;
+  src: url(odin-lined.otf);
+}
 body {
   display: flex;
   flex-direction: row-reverse;
@@ -28,17 +32,19 @@ body {
   position: absolute;
   top: 150px;
   color: white;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
   width: 400px;
+  font-family: nurse-bold;
   font-size: 80px;
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: center;
   flex: 1;
+  
 }
 
 .logo-img {
-  width: 100px;
+  width: 80px;
   height: auto;
 }
 
@@ -57,7 +63,7 @@ body {
 }
 
 .left {
-  margin-right: 100px;
+  margin-right: 50px;
 }
 
 .inner-text {
