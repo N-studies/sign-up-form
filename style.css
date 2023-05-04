@@ -40,7 +40,6 @@ body {
   align-items: end;
   justify-content: center;
   flex: 1;
-  
 }
 
 .logo-img {
@@ -48,17 +47,15 @@ body {
   height: auto;
 }
 
-
-
 .white-background {
   display: flex;
   flex-direction: row;
   height: fit-content;
   background-color: white;
-  padding-left: 70px;
-  margin-left: -70px;
+  padding-left: 50px;
+  margin-left: -50px;
   padding-top: 65px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   box-shadow: 2px 3px 5px 1px gainsboro;
 }
 
@@ -89,7 +86,7 @@ body {
   padding-top: 100px;
 
   width: 100vw;
-  padding-left: 70px;
+  padding-left: 50px;
 }
 
 .upper-text {
@@ -102,13 +99,13 @@ body {
 .middle {
   margin-top: 20px;
   margin-bottom: 40px;
-}
+} /* What is this?*/
 
 button {
   background-color: #596d48;
   color: white;
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   border-radius: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -120,5 +117,7 @@ button {
 }
 
 input {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
+  padding-right: 50px;
+  padding-bottom: 5px;
 }
