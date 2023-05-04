@@ -61,6 +61,7 @@ body {
 
 .left {
   margin-right: 50px;
+  
 }
 
 .inner-text {
@@ -124,6 +125,23 @@ input {
   border-radius: 5px;
 }
 
+.left :last-child, .right :last-child{
+  border: 1px solid red;
+}
 
+.left::after {
+  font-size: 10px;
+  content: "* Passwords do not match";
+  color: red;
+  position: absolute;
+  top: 480px;
+  
+  /* ugly */
+  
+  
+}
 
-
+a:visited , a:hover, a:active, a:link {
+  color: #596d48;
+  text-decoration: none;
+}
