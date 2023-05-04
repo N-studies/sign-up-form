@@ -106,7 +106,7 @@ button {
   color: white;
   margin-top: 20px;
   margin-bottom: 30px;
-  border-radius: 15px;
+  border-radius: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 40px;
@@ -118,6 +118,12 @@ button {
 
 input {
   margin-bottom: 20px;
-  padding-right: 50px;
-  padding-bottom: 5px;
+  width:225px;
+  height: 25px;
+  border: solid 1px #e5e7eb;
+  border-radius: 5px;
 }
+
+
+
+
